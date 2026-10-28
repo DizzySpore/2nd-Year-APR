@@ -9,7 +9,7 @@ A modular SLURM-based pipeline for end-to-end metagenomic analysis of paired-end
 ## Before you begin
 - Paired-end reads (R1/R2) in a single directory
 - SLURM cluster with Conda available
-- Required databases at `/rds/projects/h/hallly-microbiome/software/databases`
+- Required databases at `<DATABASES_PATH>`
 
 ---
 
@@ -24,13 +24,13 @@ You will be prompted for:
 
 | Prompt | Example |
 |--------|---------|
-| Working directory | `/data/samples` or Enter for current |
+| Working directory | `<WORKING_DIRECTORY>` or Enter for current |
 | File extension | `.fastq.gz` |
 | Wall time (hours) | `48` |
 | Memory (GB) | `128` |
 | CPU cores | `16` |
 | Concurrent jobs | `8` |
-| Email | `user@bham.ac.uk` |
+| Email | `<EMAIL_ADDRESS>` |
 | Run full workflow? | `y` / `n` (then select stages) |
 
 Review the summary, type `y` to submit.

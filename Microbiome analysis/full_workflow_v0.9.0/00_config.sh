@@ -125,9 +125,9 @@ else
 
     if [ -z "$DEFAULT_EMAIL" ]; then
         if [[ "$USER" =~ ^[a-z]{1,3}[0-9]{3}$ ]]; then
-            DEFAULT_EMAIL="${USER}@student.bham.ac.uk"
+            DEFAULT_EMAIL="<EMAIL_ADDRESS>"
         else
-            echo "Warning: Non-student user ID detected. An email cannot be auto-generated."
+            echo "Warning: Unable to auto-generate an email address. Please provide one manually."
             read -p "Enter email for SLURM notifications: " EMAIL
             save_email_to_cache "$USER" "$EMAIL"
         fi
@@ -217,7 +217,7 @@ read -p "Run the full default workflow? (y/n): " full_workflow
 
 if [[ "$full_workflow" =~ ^[Yy]$ ]]; then
     SELECTED_STAGES=("${ALL_STAGES[@]}")
-    echo "$(date): Full workflow selected — all stages will run."
+    echo "$(date): Full workflow selected -- all stages will run."
 else
     echo ""
     echo "Available stages:"
@@ -377,7 +377,7 @@ done
 # ============================================================================
 # SECTION 5: DATABASE PATH SETUP
 # ============================================================================
-DATABASES="/rds/projects/h/hallly-microbiome/software/databases"
+DATABASES="<DATABASES_PATH>"
 
 # ============================================================================
 # EXPORT ALL CONFIGURATION VARIABLES
