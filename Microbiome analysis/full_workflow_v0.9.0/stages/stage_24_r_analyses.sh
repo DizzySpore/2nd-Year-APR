@@ -21,14 +21,14 @@
 #
 # Dependencies:
 #   - R with maaslin3 installed at:
-#     /rds/projects/h/hallly-microbiome/software/R_tools/R_LIB/lxm697_lib/
+#     <R_LIB_PATH>
 #   - Metadata file at: ${DIRECTORY}/metadata.csv
 #   - Bracken outputs in: ${DIRECTORY}/kraken2_bracken_out/
 #   - HUMAnN3 outputs in: ${DIRECTORY}/humann_reads_output/
 #
 ################################################################################
 
-R_LIB="/rds/projects/h/hallly-microbiome/software/R_tools/R_LIB/lxm697_lib/"
+R_LIB="${R_LIB:-<R_LIB_PATH>}"
 METADATA="${DIRECTORY}/metadata.csv"
 BRACKEN_DIR="${DIRECTORY}/kraken2_bracken_out"
 HUMANN_DIR="${DIRECTORY}/humann_reads_output"
@@ -40,6 +40,8 @@ echo "  Metadata    : ${METADATA}"
 echo "  Bracken dir : ${BRACKEN_DIR}"
 echo "  HUMAnN3 dir : ${HUMANN_DIR}"
 echo "  Output      : ${DIRECTORY}"
+
+echo "  R library   : ${R_LIB}"
 
 # Verify metadata file exists
 if [ ! -f "${METADATA}" ]; then
