@@ -95,7 +95,7 @@ main_workflow.sh
 
 ## Stage selection
 
-At configuration time (`00_config.sh`) the user chooses to run the full workflow or a custom subset of stages. The selection is written to `selected_stages.txt` and read by each compute job at runtime. Stages with unmet dependencies trigger a warning but are not blocked — outputs from missing stages are assumed to already exist in the working directory.
+At configuration time (`00_config.sh`) the user chooses to run the full workflow or a custom subset of stages. The selection is written to `selected_stages.txt` and read by each compute job at runtime.
 
 **Dependency map (direct upstream requirement):**
 
@@ -117,7 +117,7 @@ STAGE_24 → STAGE_20
 
 ## Checkpoint and resume system
 
-Each stage writes its outputs to a known path. `03_checkpoint.sh` scans these paths before submission and removes already-complete samples from `samples.txt`, reducing the array size. On the compute node, `status/${SAMPLE}.resume` records the last completed stage so that if a job is interrupted and resubmitted, it picks up from where it left off using a fallthrough `case` statement (`;&` operator).
+Each stage writes its outputs to a known path. `03_checkpoint.sh` scans these paths before submission and removes already-complete samples from `samples.txt`, reducing the array size. On the compute node, each task reads the resume stage and continues from there.
 
 ```
 Run 1:  STAGE_01 ✓  STAGE_02 ✓  STAGE_03 ✓  STAGE_05 ✗  (interrupted)
@@ -130,13 +130,13 @@ Run 2:  checkpoint detected → RESUME_FROM=STAGE_05 → continues from there
 
 ```
 00_config.sh  ──exports──►  DIRECTORY, EXTENSION, WALL_TIME_PADDED, MEM_SIZE,
-                             NUM_CORES, CONCURRENT, EMAIL, DATABASES,
-                             SELECTED_STAGES → selected_stages.txt
+                              NUM_CORES, CONCURRENT, EMAIL, DATABASES,
+                              SELECTED_STAGES → selected_stages.txt
 
 01_sample_discovery.sh  ──exports──►  SAMPLE_LIST, N → samples.txt
 
 02_slurm_template.sh  ──substitutes all of the above into──►  metagenomics_workflow.sh
-                        (runtime vars like $SAMPLE, $SLURM_ARRAY_TASK_ID are escaped)
+                         (runtime vars like $SAMPLE, $SLURM_ARRAY_TASK_ID are escaped)
 ```
 
 ---
