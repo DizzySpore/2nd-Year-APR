@@ -1,0 +1,10 @@
+"metric","axis","pct_var"
+"bray","PC1",23.71
+"bray","PC2",7.63
+"bray","PC3",7.45
+"jaccard","PC1",16.58
+"jaccard","PC2",5.21
+"jaccard","PC3",3.69
+"aitchison","PC1",21.26
+"aitchison","PC2",6.2
+"aitchison","PC3",4.9

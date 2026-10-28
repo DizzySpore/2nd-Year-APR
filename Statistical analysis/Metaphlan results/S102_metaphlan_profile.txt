@@ -1,0 +1,56 @@
+#mpa_vJan26_CHOCOPhlAnSGB_202605
+#/rds/projects/h/hallly-microbiome/software/mamba+conda/miniforge3/envs/metaphlan-env/bin/metaphlan /rds/projects/h/hallly-microbiome/Leon/malawi_data/attempt2/work/dehuman_reads/kneaddata_output_S102/out.S102.R1_kneaddata_paired_1.fastq.gz,/rds/projects/h/hallly-microbiome/Leon/malawi_data/attempt2/work/dehuman_reads/kneaddata_output_S102/out.S102.R1_kneaddata_paired_2.fastq.gz --input_type fastq -t rel_ab_w_read_stats -o /rds/projects/h/hallly-microbiome/Leon/malawi_data/attempt2/work/metaphlan_out/S102_metaphlan_profile.txt --nproc 16 --db_dir /rds/projects/h/hallly-microbiome/software/databases/metaphlandb/vJan26_202605/ --mapout /rds/projects/h/hallly-microbiome/Leon/malawi_data/attempt2/work/metaphlan_out/S102_bowtie2out.bowtie2.bz2
+#6514411 reads processed
+#SampleID	Metaphlan_Analysis
+#Estimated reads mapped to known clades: 4685829
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+UNCLASSIFIED	-1	28.0698	-	1828582
+k__Bacteria	2	71.93020213185812	2.0941120897347862	4685829
+k__Bacteria|p__Firmicutes	2|1239	48.930735790802885	1.4245259515871522	2996060
+k__Bacteria|p__Actinomycetota	2|201174	22.293629653575742	0.6490369402671372	1675554
+k__Bacteria|p__Mycoplasmatota	2|544448	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	31.93776501366739	0.9298077658258884	1947478
+k__Bacteria|p__Actinomycetota|c__Actinomycetes	2|201174|1760	22.293629653575742	0.6490369402671372	1675554
+k__Bacteria|p__Firmicutes|c__Negativicutes	2|1239|909932	16.992970777135493	0.4947181857612637	1048582
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630	2|544448|	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	31.93776501366739	0.9298077658258884	1947478
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales	2|201174|1760|85004	22.155092084269786	0.6450036364165743	1652251
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales	2|1239|909932|1843489	16.992970777135493	0.4947181857612637	1048582
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630|o__OFGB1630	2|544448||	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales	2|201174|1760|85006	0.13853756930595873	0.004033303850562878	23303
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae	2|1239|91061|186826|1300	31.574488720820653	0.919231738700378	1924596
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae	2|201174|1760|85004|31953	22.155092084269786	0.6450036364165743	1652251
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae	2|1239|909932|1843489|31977	16.992970777135493	0.4947181857612637	1048582
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630|o__OFGB1630|f__FGB1630	2|544448|||	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae	2|1239|91061|186826|33958	0.3632762928467363	0.010576027125510387	22882
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Promicromonosporaceae	2|201174|1760|85006|85017	0.11379357977259956	0.0033128280966526016	15599
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Micrococcaceae	2|201174|1760|85006|1268	0.024743989533359195	0.0007204757539102766	7704
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus	2|1239|91061|186826|1300|1301	31.574488720820653	0.919231738700378	1924596
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium	2|201174|1760|85004|31953|1678	22.155092084269786	0.6450036364165743	1652251
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Veillonella	2|1239|909932|1843489|31977|29465	16.992970777135493	0.4947181857612637	1048582
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630|o__OFGB1630|f__FGB1630|g__GGB4106	2|544448||||	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus	2|1239|91061|186826|33958|2742598	0.3632762928467363	0.010576027125510387	22882
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Promicromonosporaceae|g__Isoptericola	2|201174|1760|85006|85017|254250	0.11379357977259956	0.0033128280966526016	15599
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Micrococcaceae|g__Rothia	2|201174|1760|85006|1268|32207	0.024743989533359195	0.0007204757539102766	7704
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium_longum	2|201174|1760|85004|31953|1678|216816	22.155092084269786	0.6450036364165743	1652251
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_raffinosi	2|1239|91061|186826|1300|1301|3053355	20.906203949755398	0.6086447123712303	1283371
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_lactarius	2|1239|91061|186826|1300|1301|684066	10.407458665114929	0.302993555640218	613251
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Veillonella|s__Veillonella_SGB59090	2|1239|909932|1843489|31977|29465|	10.333665470747855	0.30084510471325243	636079
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Veillonella|s__Veillonella_SGB59098	2|1239|909932|1843489|31977|29465|	6.659305306387639	0.19387308104801126	412503
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630|o__OFGB1630|f__FGB1630|g__GGB4106|s__GGB4106_SGB5569	2|544448|||||	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus|s__Limosilactobacillus_fermentum	2|1239|91061|186826|33958|2742598|1613	0.3632762928467363	0.010576027125510387	22882
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_peroris	2|1239|91061|186826|1300|1301|68891	0.13209262319494425	0.0038457172475013053	14378
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis	2|1239|91061|186826|1300|1301|28037	0.12873348275538649	0.003747753441428462	13596
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Promicromonosporaceae|g__Isoptericola|s__Isoptericola_variabilis	2|201174|1760|85006|85017|254250|139208	0.11379357977259956	0.0033128280966526016	15599
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Micrococcaceae|g__Rothia|s__Rothia_mucilaginosa	2|201174|1760|85006|1268|32207|43675	0.024743989533359195	0.0007204757539102766	7704
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium_longum|t__SGB17248	2|201174|1760|85004|31953|1678|216816|	22.155092084269786	0.6450036364165743	1652251
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_raffinosi|t__SGB8005	2|1239|91061|186826|1300|1301|3053355|	20.906203949755398	0.6086447123712303	1283371
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_lactarius|t__SGB8065_group	2|1239|91061|186826|1300|1301|684066|	10.407458665114929	0.302993555640218	613251
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Veillonella|s__Veillonella_SGB59090|t__SGB59090	2|1239|909932|1843489|31977|29465||	10.333665470747855	0.30084510471325243	636079
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Veillonella|s__Veillonella_SGB59098|t__SGB59098	2|1239|909932|1843489|31977|29465||	6.659305306387639	0.19387308104801126	412503
+k__Bacteria|p__Mycoplasmatota|c__CFGB1630|o__OFGB1630|f__FGB1630|g__GGB4106|s__GGB4106_SGB5569|t__SGB5569	2|544448||||||	0.7058366874794975	0.02054919788049676	14215
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Limosilactobacillus|s__Limosilactobacillus_fermentum|t__SGB7106	2|1239|91061|186826|33958|2742598|1613|	0.3632762928467363	0.010576027125510387	22882
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_peroris|t__SGB8084	2|1239|91061|186826|1300|1301|68891|	0.13209262319494425	0.0038457172475013053	14378
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis|t__SGB8168_group	2|1239|91061|186826|1300|1301|28037|	0.12873348275538649	0.003747753441428462	13596
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Promicromonosporaceae|g__Isoptericola|s__Isoptericola_variabilis|t__SGB17153	2|201174|1760|85006|85017|254250|139208|	0.11379357977259956	0.0033128280966526016	15599
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Micrococcaceae|g__Rothia|s__Rothia_mucilaginosa|t__SGB16986	2|201174|1760|85006|1268|32207|43675|	0.024743989533359195	0.0007204757539102766	7704

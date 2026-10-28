@@ -1,0 +1,77 @@
+EC	status	name	reaction	KOs
+1.1.1.157	ok	3-hydroxybutyryl-CoA dehydrogenase.	(3S)-3-hydroxybutanoyl-CoA + NADP(+) = acetoacetyl-CoA + NADPH + H(+).	K00074
+1.1.1.2	ok	alcohol dehydrogenase (NADP(+)).	a primary alcohol + NADP(+) = an aldehyde + NADPH + H(+).	K00002,K12957,K13979
+1.1.1.37	ok	(S)-malate dehydrogenase (NAD(+), oxaloacetate-forming).	(S)-malate + NAD(+) = oxaloacetate + NADH + H(+).	K00024,K00025,K00026
+1.2.1.27	ok	methylmalonate-semialdehyde dehydrogenase (CoA acylating).	2-methyl-3-oxopropanoate + NAD(+) + CoA + H2O = propanoyl-CoA + hydrogencarbonate + NADH + H(+).	K00140
+1.2.1.87	ok	propanal dehydrogenase (CoA-propanoylating).	propanal + NAD(+) + CoA = propanoyl-CoA + NADH + H(+).	K13922,K18366
+1.2.7.1	ok	pyruvate synthase.	2 oxidized [2Fe-2S]-[ferredoxin] + pyruvate + CoA = 2 reduced [2Fe-2S]- [ferredoxin] + acetyl-CoA + CO2 + H(+).	K00169,K00170,K00171,K00172,K00189,K03737
+1.2.7.4	ok	anaerobic carbon-monoxide dehydrogenase.	CO + 2 oxidized [2Fe-2S]-[ferredoxin] + H2O = 2 reduced [2Fe-2S]- [ferredoxin] + CO2 + 2 H(+).	K00192,K00198
+1.3.1.31	ok	2-enoate reductase.	butanoate + NAD(+) = (2E)-2-butenoate + NADH + H(+).	K10797
+1.3.1.44	ok	trans-2-enoyl-CoA reductase (NAD(+)).	a 2,3-saturated acyl-CoA + NAD(+) = a (2E)-enoyl-CoA + NADH + H(+).	K00209
+1.3.1.6	ok	fumarate reductase (NADH).	succinate + NAD(+) = fumarate + NADH + H(+).	K18556,K18557,K28482
+1.3.1.95	ok	acryloyl-CoA reductase (NADH).	propanoyl-CoA + NAD(+) = acryloyl-CoA + NADH + H(+).	K20143
+1.3.5.4	OBSOLETE	Transferred entry: 1.3.5.1.		
+1.3.8.1	ok	short-chain acyl-CoA dehydrogenase.	a short-chain 2,3-saturated fatty acyl-CoA + oxidized [electron-transfer flavoprotein] + H(+) = a short-chain (2E)-enoyl-CoA + reduced [electron- transfer flavoprotein].	K00248
+2.1.3.1	ok	methylmalonyl-CoA carboxytransferase.	(S)-methylmalonyl-CoA + pyruvate = propanoyl-CoA + oxaloacetate.	K03416,K17489,K17490
+2.3.1.16	ok	acetyl-CoA C-acyltransferase.	an acyl-CoA + acetyl-CoA = a 3-oxoacyl-CoA + CoA.	K00632,K07508,K07509,K07513
+2.3.1.19	ok	phosphate butyryltransferase.	butanoyl-CoA + phosphate = butanoyl phosphate + CoA.	K00634
+2.3.1.222	ok	phosphate propanoyltransferase.	propanoyl-CoA + phosphate = propanoyl phosphate + CoA.	K13923
+2.3.1.8	ok	phosphate acetyltransferase.	acetyl-CoA + phosphate = acetyl phosphate + CoA.	K00625,K13788,K15024
+2.3.1.9	ok	acetyl-CoA C-acetyltransferase.	2 acetyl-CoA = acetoacetyl-CoA + CoA.	K00626
+2.4.1.211	ok	1,3-beta-galactosyl-N-acetylhexosamine phosphorylase.	beta-D-galactosyl-(1->3)-N-acetyl-D-glucosamine + phosphate = alpha-D- galactose 1-phosphate + N-acetyl-D-glucosamine.	K15533
+2.7.2.1	ok	acetate kinase.	acetate + ATP = acetyl phosphate + ADP.	K00925
+2.7.2.15	ok	propionate kinase.	propanoate + ATP = propanoyl phosphate + ADP.	K00932,K19697
+2.7.2.7	ok	butyrate kinase.	butanoate + ATP = butanoyl phosphate + ADP.	K00929
+2.7.2.9	OBSOLETE	Transferred entry: 6.3.5.5.		
+2.8.3.1	ok	propionate CoA-transferase.	propanoate + acetyl-CoA = propanoyl-CoA + acetate.	K01026
+2.8.3.8	ok	acetate CoA-transferase.	an acyl-CoA + acetate = a carboxylate + acetyl-CoA.	K01034,K01035,K19709
+3.1.1.53	ok	sialate O-acetylesterase.	(1) N-acetyl-9-O-acetylneuraminate + H2O = N-acetylneuraminate + acetate + H(+). (2) N-acetyl-4-O-acetylneuraminate + H2O = N-acetylneuraminate + acetate + H(+).	K05970,K19253,K24546,K26504
+3.2.1.1	ok	alpha-amylase.	Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.	K01176,K05343,K07405
+3.2.1.10	ok	oligo-1,6-glucosidase.	(1) Hydrolysis of (1->6)-alpha-D-glucosidic linkages in some oligosaccharides produced from starch and glycogen by alpha-amylase, and in isomaltose. (2) isomaltose + H2O = alpha-D-glucose + D-glucose.	K01182,K01203
+3.2.1.111	ok	1,3-alpha-L-fucosidase.	Hydrolysis of (1->3)-linkages between alpha-L-fucose and N-acetylglucosamine residues in glycoproteins.	
+3.2.1.127	ok	1,6-alpha-L-fucosidase.	Hydrolysis of (1->6)-linkages between alpha-L-fucose and N-acetyl-D- glucosamine in glycopeptides such as immunoglobulin G glycopeptide and fucosyl-asialo-agalacto-fetuin.	
+3.2.1.129	ok	endo-alpha-sialidase.	Endohydrolysis of (2->8)-alpha-sialosyl linkages in oligo- or poly(sialic) acids.	K28677
+3.2.1.140	ok	lacto-N-biosidase.	beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-D-Glc + H2O = beta-D-galactosyl-(1->3)-N-acetyl-D-glucosamine + lactose.	K27982
+3.2.1.15	ok	endo-polygalacturonase.	(1,4-alpha-D-galacturonosyl)n+m + H2O = (1,4-alpha-D-galacturonosyl)n + (1,4-alpha-D-galacturonosyl)m.	K01184
+3.2.1.171	ok	rhamnogalacturonan hydrolase.	Endohydrolysis of alpha-D-GalA-(1->2)-alpha-L-Rha glycosidic bond in the rhamnogalacturonan I backbone with initial inversion of anomeric configuration releasing oligosaccharides with beta-D-GalA at the reducing end.	K18580
+3.2.1.18	ok	exo-alpha-sialidase.	Hydrolysis of alpha-(2->3)-, alpha-(2->6)-, alpha-(2->8)- glycosidic linkages of terminal sialic acid residues in oligosaccharides, glycoproteins, glycolipids, colominic acid and synthetic substrates.	K01186,K12357,K19247,K19392,K23550
+3.2.1.20	ok	alpha-glucosidase.	Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-glucose residues with release of alpha-D-glucose.	K01187,K12047,K12316,K12317
+3.2.1.21	ok	beta-glucosidase.	Hydrolysis of terminal, non-reducing beta-D-glucosyl residues with release of beta-D-glucose.	K01188,K05349,K05350
+3.2.1.22	ok	alpha-galactosidase.	Hydrolysis of terminal, non-reducing alpha-D-galactose residues in alpha- D-galactosides, including galactose oligosaccharides, galactomannans and galactolipids.	K01189,K07406,K07407
+3.2.1.23	ok	beta-galactosidase.	Hydrolysis of terminal non-reducing beta-D-galactose residues in beta-D- galactosides.	K01190,K12111,K12308,K12309
+3.2.1.25	ok	beta-mannosidase.	Hydrolysis of terminal, non-reducing beta-D-mannose residues in beta-D- mannosides.	K01192
+3.2.1.26	ok	beta-fructofuranosidase.	Hydrolysis of terminal non-reducing beta-D-fructofuranoside residues in beta-D-fructofuranosides.	K01193,K28898
+3.2.1.3	ok	glucan 1,4-alpha-glucosidase.	Hydrolysis of terminal (1->4)-linked alpha-D-glucose residues successively from non-reducing ends of the chains with release of beta-D- glucose.	K01178,K12047,K21574
+3.2.1.37	ok	xylan 1,4-beta-xylosidase.	Hydrolysis of (1->4)-beta-D-xylans, to remove successive D-xylose residues from the non-reducing termini.	K01198,K15920,K22268
+3.2.1.38	ok	beta-D-fucosidase.	Hydrolysis of terminal non-reducing beta-D-fucose residues in beta-D- fucosides.	
+3.2.1.39	ok	glucan endo-1,3-beta-D-glucosidase.	Hydrolysis of (1->3)-beta-D-glucosidic linkages in (1->3)-beta-D-glucans.	K01199,K19891,K19892,K19893
+3.2.1.4	ok	cellulase.	Endohydrolysis of (1->4)-beta-D-glucosidic linkages in cellulose, lichenin and cereal beta-D-glucans.	K01179,K19357,K20542
+3.2.1.40	ok	alpha-L-rhamnosidase.	Hydrolysis of terminal non-reducing alpha-L-rhamnose residues in alpha-L- rhamnosides.	K05989
+3.2.1.50	ok	alpha-N-acetylglucosaminidase.	Hydrolysis of terminal non-reducing N-acetyl-D-glucosamine residues in N-acetyl-alpha-D-glucosaminides.	K01205
+3.2.1.51	ok	alpha-L-fucosidase.	an alpha-L-fucoside + H2O = L-fucose + an alcohol.	K01206,K15923
+3.2.1.52	ok	beta-N-acetylhexosaminidase.	Hydrolysis of terminal non-reducing N-acetyl-D-hexosamine residues in N-acetyl-beta-D-hexosaminides.	K01207,K12373,K14459,K20730
+3.2.1.55	ok	non-reducing end alpha-L-arabinofuranosidase.	Hydrolysis of terminal non-reducing alpha-L-arabinofuranoside residues in alpha-L-arabinosides.	K01209,K15921,K20844
+3.2.1.6	ok	endo-1,3(4)-beta-glucanase.	Endohydrolysis of (1->3)- or (1->4)-linkages in beta-D-glucans when the glucose residue whose reducing group is involved in the linkage to be hydrolyzed is itself substituted at C-3.	K01180
+3.2.1.63	ok	1,2-alpha-L-fucosidase.	methyl-2-alpha-L-fucopyranosyl-beta-D-galactoside + H2O = methyl beta-D- galactoside + L-fucose.	
+3.2.1.67	ok	galacturonan 1,4-alpha-galacturonidase.	[(1->4)-alpha-D-galacturonosyl](n) + H2O = alpha-D-galacturonate + [(1->4)-alpha-D-galacturonosyl](n-1).	K01213,K22933
+3.2.1.74	ok	glucan 1,4-beta-glucosidase.	Hydrolysis of (1->4)-linkages in (1->4)-beta-D-glucans, to remove successive glucose units.	
+3.2.1.78	ok	mannan endo-1,4-beta-mannosidase.	Random hydrolysis of (1->4)-beta-D-mannosidic linkages in mannans, galactomannans and glucomannans.	K01218,K19355
+3.2.1.8	ok	endo-1,4-beta-xylanase.	Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.	K01181
+3.2.1.80	ok	fructan beta-fructosidase.	Hydrolysis of terminal, non-reducing (2->1)- and (2->6)-linked beta-D- fructofuranose residues in fructans.	K03332
+3.2.1.82	ok	exo-poly-alpha-digalacturonosidase.	[(1->4)-alpha-D-galacturonosyl](n) + H2O = alpha-D-galacturonosyl-(1->4)- D-galacturonate + [(1->4)-alpha-D-galacturonosyl](n-2).	K18650
+3.2.1.85	ok	6-phospho-beta-galactosidase.	a 6-phospho-beta-D-galactoside + H2O = D-galactose 6-phosphate + an alcohol.	K01220
+3.2.1.99	ok	arabinan endo-1,5-alpha-L-arabinosidase.	Endohydrolysis of (1->5)-alpha-arabinofuranosidic linkages in (1->5)- arabinans.	K06113
+4.1.1.41	OBSOLETE	Transferred entry: 7.2.4.3.		
+4.2.1.2	ok	fumarate hydratase.	(S)-malate = fumarate + H2O.	K01675,K01676,K01677,K01678,K01679,K01774
+4.2.1.28	ok	propanediol dehydratase.	propane-1,2-diol = propanal + H2O.	K01699,K13919,K13920
+4.2.1.54	ok	lactoyl-CoA dehydratase.	(R)-lactoyl-CoA = acryloyl-CoA + H2O.	K20626,K20627
+4.2.1.55	ok	3-hydroxybutyryl-CoA dehydratase.	(3R)-3-hydroxybutanoyl-CoA = (2E)-butenoyl-CoA + H2O.	K17865
+4.2.2.10	ok	pectin lyase.	Eliminative cleavage of (1->4)-alpha-D-galacturonan methyl ester to give oligosaccharides with 4-deoxy-6-O-methyl-alpha-D-galact-4-enuronosyl groups at their non-reducing ends.	K01732,K19551
+4.2.2.15	ok	anhydrosialidase.	Elimination of alpha-sialyl groups in N-acetylneuraminic acid glycosides, releasing 2,7-anhydro-alpha-N-acetylneuraminate.	
+4.2.2.2	ok	pectate lyase.	Eliminative cleavage of (1->4)-alpha-D-galacturonan to give oligosaccharides with 4-deoxy-alpha-D-galact-4-enuronosyl groups at their non-reducing ends.	K01728,K19551,K22539
+4.2.2.23	ok	rhamnogalacturonan endolyase.	Endotype eliminative cleavage of L-alpha-rhamnopyranosyl-(1->4)-alpha-D- galactopyranosyluronic acid bonds of rhamnogalacturonan I domains in ramified hairy regions of pectin leaving L-rhamnopyranose at the reducing end and 4-deoxy-4,5-unsaturated D-galactopyranosyluronic acid at the non- reducing end.	K18195,K18197
+4.2.2.24	ok	rhamnogalacturonan exolyase.	Exotype eliminative cleavage of alpha-L-rhamnopyranosyl-(1->4)-alpha-D- galactopyranosyluronic acid bonds of rhamnogalacturonan I oligosaccharides containing alpha-L-rhamnopyranose at the reducing end and 4-deoxy-4,5-unsaturated D-galactopyranosyluronic acid at the non- reducing end. The products are the disaccharide 2-O-(4-deoxy-beta-L- threo-hex-4-enopyranuronosyl)-alpha-L-rhamnopyranose and the shortened rhamnogalacturonan oligosaccharide containing one 4-deoxy-4,5-unsaturated D-galactopyranosyluronic acid at the non-reducing end.	K18198
+5.4.99.2	ok	methylmalonyl-CoA mutase.	(R)-methylmalonyl-CoA = succinyl-CoA.	K01847,K01848,K01849
+6.4.1.1	ok	pyruvate carboxylase.	hydrogencarbonate + pyruvate + ATP = oxaloacetate + ADP + phosphate + H(+).	K01958,K01959,K01960
+6.4.1.3	ok	propionyl-CoA carboxylase.	propanoyl-CoA + hydrogencarbonate + ATP = (S)-methylmalonyl-CoA + ADP + phosphate + H(+).	K01964,K01965,K01966,K11263,K15036,K15052,K18472,K18603,K18604,K19312,K22568,K27094
+7.2.4.3	ok	(S)-methylmalonyl-CoA decarboxylase (sodium-transporting).	(S)-methylmalonyl-CoA + Na(+)(in) + H(+)(out) = propanoyl-CoA + Na(+)(out) + CO2.	K01604
